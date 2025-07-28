@@ -35,8 +35,6 @@
           carte.style.margin = '5px';
           carte.style.gap = '15px';
 
-          document.querySelector('.container').appendChild(carte);
-        }, j * 200);
 
         if (xdecalecarte[j] !== '0') {
           nombreDePiochesx++;
