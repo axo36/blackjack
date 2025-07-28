@@ -149,23 +149,3 @@ body {
   gap: 5px;
 }
 
-.container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Les cartes s’adaptent aux petits écrans */
-@media (max-width: 600px) {
-  .cart {
-    font-size: 12px;
-    width: 50px;
-    height: 80px;
-    line-height: 80px;
-  }
-}
-
